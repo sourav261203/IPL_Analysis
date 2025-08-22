@@ -21,18 +21,20 @@ It provides insights into batting, bowling, and team performances, including **h
 - [NumPy](https://numpy.org/) – Calculations  
 - [Matplotlib / Seaborn / Plotly] – (if used) for visualization  
 - [PyArrow](https://arrow.apache.org/) – Fast data loading  
-
+```
 ---
 
 ## 📂 Project Structure
+
+```
 IPL_Analysis/
-│── data/ # Raw and cleaned datasets
-│── src/ # Core Python modules
-│ ├── helper.py # Utility functions (faceoff, stats, etc.)
-│ └── preprocessing.py
-│── app.py # Streamlit app entry point
-│── requirements.txt # Python dependencies
-│── README.md # Project documentation
+├── data/               # Raw and cleaned datasets
+├── src/                # Core Python modules
+│   ├── helper.py       # Utility functions (faceoff, stats, etc.)
+│   └── preprocessing.py
+├── main.py              # Streamlit app entry point
+├── requirements.txt    # Python dependencies
+└── README.md           # Project documentation
 
 ---
 
@@ -42,3 +44,21 @@ IPL_Analysis/
 ```bash
 git clone https://github.com/your-username/IPL_Analysis.git
 cd IPL_Analysis
+```
+
+2. **Create virtual environment (recommended)**
+```bash
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+```
+3. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+4. **Run the Streamlit app**
+```bash
+streamlit run main.py
+```
+
+---
