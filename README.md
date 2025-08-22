@@ -26,7 +26,6 @@ It provides insights into batting, bowling, and team performances, including **h
 
 ## 📂 Project Structure
 
-```
 IPL_Analysis/
 ├── data/               # Raw and cleaned datasets
 ├── src/                # Core Python modules
@@ -35,7 +34,7 @@ IPL_Analysis/
 ├── main.py              # Streamlit app entry point
 ├── requirements.txt    # Python dependencies
 └── README.md           # Project documentation
-
+```
 ---
 
 ## 🚀 Installation & Setup
